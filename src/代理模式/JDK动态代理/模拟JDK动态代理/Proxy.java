@@ -14,7 +14,7 @@ public class Proxy {
 		"public CarTimeProxy(Moveable car) {" + rt + "this.car = car;" + rt + "}" + rt +
 
 		"@Override" + rt + "public void move() {" + rt + "System.out.println(\"汽车开始行驶\");" + rt + "this.car.move();" + rt + "System.out.println(\"汽车结束行驶\");" + rt + "}" + rt + "}" + rt;
-		return null;
+		return str;
 
 	}
 
